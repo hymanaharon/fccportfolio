@@ -1,0 +1,117 @@
+/* Style */
+h1{font-family:'Montserrat',sans-serif;
+  text-transform: uppercase;
+  text-align:center;}
+h2,h3{font-family:monospace;
+text-transform: uppercase;
+text-align:center;}
+
+.separator{
+  max-width: 300px;
+}
+.separator-light {
+  border-top: solid 5px #fff;
+  color: #fff;
+}
+.separator-dark {
+  border-top: solid 5px; color: #000000;
+}
+
+/*nav bar*/
+.navbar-default { font-family: 'Montserrat', serif; background: #FFFFFF; border-bottom-color: #DFDFDF; height: 60px; margin-bottom: 0; }
+.navbar-header .navbar-toggle { margin-top: 12px; }
+.navbar-header .navbar-brand { letter-spacing: -0.03em; height: 60px; padding: 30px 0px 0 10px; font-size: 36px; line-height: 0px; font-weight: 0; color: #111; white-space: nowrap; }
+.navbar-default .navbar-brand:focus { color: #111; }
+.navbar-default .navbar-nav { background: #FFF; margin-top: 0; }
+.navbar-default .navbar-nav>li>a { color: #222; padding: 10px; border-bottom: 1px solid #DFDFDF; }
+.navbar-default .navbar-nav>li>a.selected { color: #E64B36; }
+.navbar-default a.navbar-brand:hover .navbar-default .navbar-nav>li>a:hover { background-color: #DFDFDF; }
+.navbar-default .navbar-brand:hover { color: #E64B36; }
+
+@media screen and (min-width: 768px) {
+  .navbar-default { height: 100px; }
+  .navbar-header { width: 100%; }
+  .navbar-header .navbar-brand { height: 70px; padding: 40px 0 0 15px; font-size: 42px; }
+  .navbar-default .navbar-nav>li>a { padding: 0px 20px 9px 0; }
+  .navbar-default .navbar-nav>li>a:hover { background-color: transparent; color: #E64B36; }
+}
+
+/* Home */
+
+#home {
+  background: url('http://i1383.photobucket.com/albums/ah320/Aharon_Hyman/IMG_5422_zps2xiuohne.jpg') no-repeat center center fixed;
+  background-size: cover;  text-align: center; 
+}
+#home h1{
+  font-family:'Cutive Mono', courier;
+  font-size: 10vw; color: #000;text-shadow:0.5px 0.5px 0 rgb(255,255,255); display: inline-block; margin: 0; padding: 0; line-height: 90px; margin-top: 60px; }
+}
+#home h1:after { border-bottom: 1px solid #AAA;  }
+#home h3{
+  font-family:'Cutive Mono', courier; color:#ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .content-section { padding-top: 130px; }
+  .content-section h1 { font-size: 34px; }
+  .content-section p.lead { margin-bottom: 30px; }
+}
+
+@media screen and (min-width: 992px) {
+  .content-section { padding-top: 160px; }
+  .content-section h1 { font-size: 60px; }
+  .content-section h1:after { padding-top: 5px; }
+  .content-section p.lead { font-size: 21px; margin-bottom: 35px; }
+}
+
+@media screen and (min-width: 1200px) {
+  .content-section { padding-top: 200px; }
+  .content-section h1:after { padding-top: 7px; }
+  .content-section p.lead { font-size: 22px; margin-bottom: 35px; }
+}
+/* about */
+#about {
+  background: #a3b9c2;
+  color: #fff;
+  padding: 7vw
+}
+.alhpic{
+  align:center;
+}
+.thin-border{
+  border-color:#0000;
+  border-width:1px;
+  border-style:solid;
+}
+@media screen and (min-width: 768px) {
+  
+}
+
+/* contact  */
+#contact h4 {
+  text-align:center;
+}
+.social {
+  list-style: none;
+  padding: 0px;
+}
+
+.social li {
+  display: inline;
+  margin: 10px;
+}
+
+.social li a {
+  display: inline-block;
+  color: #67221b;
+  width: 50px;
+  height: 50px;
+}
+#facebook, #linked-in,#free-code-camp, #github, #instagram  {
+  border-radius: 50%;
+  border: solid 2px #708090;
+  
+  font-size: 1.5em;
+  padding: 10px;
+}
+
